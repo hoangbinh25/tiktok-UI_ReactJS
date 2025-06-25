@@ -3,9 +3,18 @@
 
 :root {
     --primary: #fe2c55;
+
+    // Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1730px;
+
+    // Sidebar
+    --sideber-layout-width: 232px;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
